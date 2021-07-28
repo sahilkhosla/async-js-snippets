@@ -17,3 +17,7 @@ Clone and install the [dummy-app](https://github.com/sahilkhosla/dummy-app) loca
 ## Snippets
 
 Snippets in this repo provide the completed solution to coding exercises conducted during Async JS class. For partially completed solution, please refert to the snippets folder in the dummy-app.
+
+## base-npm-lib
+(Used in Section 5)
+https://www.npmjs.com/package/base-npm-lib
