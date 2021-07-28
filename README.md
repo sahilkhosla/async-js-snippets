@@ -2,7 +2,7 @@
 
 ## Class URL
 
-[https://learning.oreilly.com/live-training/courses/asynchronous-javascript/0636920500971/](https://learning.oreilly.com/live-training/courses/asynchronous-javascript/0636920500971/)
+[https://learning.oreilly.com/attend/asynchronous-javascript/0636920500988/0636920058525/](https://learning.oreilly.com/attend/asynchronous-javascript/0636920500988/0636920058525/)
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ Clone and install the [dummy-app](https://github.com/sahilkhosla/dummy-app) loca
 
 ### Slides
 
-A unique link to the slides is provided during the class.
+[https://drive.google.com/file/d/1wtRIoHxQMcr1PedJH7s94FCpC3CNv_wO/view?usp=sharing](https://drive.google.com/file/d/1wtRIoHxQMcr1PedJH7s94FCpC3CNv_wO/view?usp=sharing)
 
 ## Snippets
 
