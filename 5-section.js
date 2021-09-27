@@ -1,30 +1,29 @@
 // lib
-const unlock = (unlockEventOptions) => {
+const unlock = (eventTypes) => {
 
-  if (!Array.isArray(unlockEventOptions) || unlockEventOptions.length === 0) {
+  // check if it's an array and not empty
+  if (!Array.isArray(eventTypes) || eventTypes.length === 0) {
     console.log('no events provided');
     return;
   }
 
-  const unlockEventPromises = [];
+  // todo: initiate an array for unlock event promises
+  const eventsArray = [];
 
-  unlockEventOptions.forEach(unlockEventOption => {
-    const eventPromise = new Promise((resolve, reject) => {
-      try {
-        window.addEventListener(unlockEventOption, () => {        
-          resolve();
-        })
-      } catch (error) {
-        console.log(error);
-      }
-    });
+  // todo: add event listener for each option and push to array
+  eventTypes.forEach(eventType => {
+    const p = new Promise((resolve, reject) => {
+      window.addEventListener(eventType, () => {
+        console.log(eventType);   
+        resolve();
+      })
+    })
+    eventsArray.push(p);
+  })
 
-    unlockEventPromises.push(eventPromise);
-  });
+  console.log(eventTypes);
 
-  console.log(unlockEventOptions);
-
-  return Promise.all(unlockEventPromises)
+  return Promise.all(eventsArray)
 }
 
 export {
